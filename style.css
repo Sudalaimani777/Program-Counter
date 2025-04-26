@@ -1,0 +1,57 @@
+body{
+    font-family: Arial;
+    text-align: center;
+}
+
+div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main{
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 35px 0 ;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    align-content: center;
+    transition: box-shadow .15s;
+}
+
+main:hover{
+    box-shadow: 5px 5px 5px grey;
+}
+
+#countLabel{
+    font-size: 5em;
+}
+
+#buttonContainer{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#increaseBtn, #decreaseBtn, #resetBtn{
+    background-color: rgb(72, 85, 207);
+    transition: background-color .20s ;
+}
+
+#increaseBtn:hover, #decreaseBtn:hover, #resetBtn:hover{
+    background-color: rgb(121, 131, 224);
+}
+
